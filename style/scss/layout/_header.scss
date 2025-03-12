@@ -1,11 +1,30 @@
 .header{
+    padding:16px 0;
     &__container{
-        padding:16px 0;
+        margin:0 auto;
         max-width:1375px;
     }
-    .logo__svg{
-        width:48px;
-        height:48px;
+    &__nav{
+        display:flex;
+        align-items: center;
+    }
+    &__logo{
+        .logo__svg{
+            width:48px;
+            height:48px;
+        }
+    }
+    &__menu{
+        margin-left:auto;
+        margin-right:0;
+        .menu__items{
+            display:flex;
+            gap:2em;
+        }
+    }
+    &__search{
+        margin-left:auto;
+        margin-right:0;
     }
 }
 

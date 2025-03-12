@@ -75,7 +75,7 @@ a {
   font-weight: 700; /* Bold */
 }
 html {
-  font-size: clamp(10px, 1.25vw, 16px);
+  font-size: clamp(10px, 1.25vw, 20px);
 }
 
 body {
@@ -83,13 +83,32 @@ body {
   font-family: "GmarketSans", "Noto Sans KR", Arial, sans-serif;
 }
 
-.header__container {
+.header {
   padding: 16px 0;
+}
+.header__container {
+  margin: 0 auto;
   max-width: 1375px;
 }
-.header .logo__svg {
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__logo .logo__svg {
   width: 48px;
   height: 48px;
+}
+.header__menu {
+  margin-left: auto;
+  margin-right: 0;
+}
+.header__menu .menu__items {
+  display: flex;
+  gap: 2em;
+}
+.header__search {
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .theme--dark {
