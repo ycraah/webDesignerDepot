@@ -3,6 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(../abstracts/_variables.scss);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,6 +60,16 @@ a {
   text-decoration: none;
 }
 
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+
 @font-face {
   font-family: "GmarketSans";
   src: url("/src/fonts/GmarketSansTTFLight.ttf") format("truetype");
@@ -88,7 +99,7 @@ body {
 }
 .header__container {
   margin: 0 auto;
-  max-width: 1375px;
+  max-width: 1350px;
 }
 .header__nav {
   display: flex;
@@ -119,4 +130,37 @@ body {
 .theme--white {
   background-color: #fff;
   color: #000;
+}
+
+.search {
+  display: flex;
+}
+.search__input {
+  width: 20rem;
+  border-radius: 25px;
+  padding-left: 1em;
+  margin-right: -2em;
+  background-color: #292929;
+  border-width: 0;
+  transition: all 1s;
+  outline: none;
+  color: #eee;
+}
+.search__input.disabled {
+  width: 0;
+  display: none;
+}
+.search__input.active {
+  display: block;
+}
+.search__input.expand-left {
+  width: 100%;
+}
+.search__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 50% 50%;
+  background-color: #e3ff59;
 }/*# sourceMappingURL=main.css.map */

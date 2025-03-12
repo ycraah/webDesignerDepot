@@ -15,7 +15,7 @@
             <div class="header__nav">
                 <div class="header__logo">
                     <a class="logo__link" href="#">
-                        <svg class="logo__svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+                        <svg aria-labelledby="로고" class="logo__svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"> 
                             <path class="svg-elem-1" d="M 46.209 19.522 L 40.999 29.162 L 32.857 14.738 L 33.902 12.756 C 35.12 10.444 37.49 9 40.072 9 C 45.39 9 48.764 14.784 46.209 19.522 Z" fill="#E4FE5A" ></path> 
                             <path class="svg-elem-2" d="M 25.197 9.991 C 27.538 10.299 29.197 11.695 30.375 13.522 L 40.239 30.556 L 36.836 36.843 C 36.61 37.265 35.964 37.98 35.636 38.26 C 34.123 39.708 31.356 39.609 30.031 37.689 L 17.065 15.083 L 18.601 12.905 C 20.102 10.775 22.639 9.653 25.197 9.991 Z" fill="#EF1FA2"></path>
                             <path class="svg-elem-3" d="M 14.085 12.693 C 12.806 10.416 10.396 9.037 7.816 9.112 C 2.504 9.258 -0.716 15.133 1.962 19.797 L 11.732 36.802 C 12.601 38.181 13.564 38.597 14.794 38.768 C 16.279 39.047 17.803 38.072 18.856 36.702 L 23.813 29.761 L 14.085 12.693 Z" fill="#763DB5" style="fill: rgba(137, 87, 191, 0.867);"></path> 
@@ -34,8 +34,11 @@
                     </ul>
                 </div>
                 <div class="header__search search">
-                    <input class="search__input" type="text" placeholder="Search">
-                    <button class="search__button">Search</button>
+                    <input class="search__input" type="text" placeholder="Type to search">
+                    <button class="search__button">
+                        <svg class="search__icon" aria-labelledby="돋보기 이미지" width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+                            <path fill="none" d="M21 21L17.5001 17.5M20 11.5C20 16.1944 16.1944 20 11.5 20C6.80558 20 3 16.1944 3 11.5C3 6.80558 6.80558 3 11.5 3C16.1944 3 20 6.80558 20 11.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
+                    </button>
                 </div>
             </div>
         </div>
