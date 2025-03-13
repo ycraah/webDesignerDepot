@@ -86,7 +86,7 @@ button {
   font-weight: 700; /* Bold */
 }
 html {
-  font-size: clamp(10px, 1.25vw, 20px);
+  font-size: 16px;
 }
 
 body {
@@ -104,6 +104,7 @@ body {
 .header__nav {
   display: flex;
   align-items: center;
+  font-size: 1.2em;
 }
 .header__logo .logo__svg {
   width: 48px;
@@ -118,8 +119,7 @@ body {
   gap: 2em;
 }
 .header__search {
-  margin-left: auto;
-  margin-right: 0;
+  margin-left: 2em;
 }
 
 .theme--dark {
@@ -138,13 +138,14 @@ body {
 .search__input {
   width: 20rem;
   border-radius: 25px;
-  padding-left: 1em;
+  padding-left: 1.5em;
   margin-right: -2em;
   background-color: #292929;
   border-width: 0;
   transition: all 1s;
   outline: none;
   color: #eee;
+  font-size: 1.05em;
 }
 .search__input.disabled {
   width: 0;
@@ -160,7 +161,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 7px;
+  padding: 15px;
   border-radius: 50% 50%;
   background-color: #e3ff59;
 }/*# sourceMappingURL=main.css.map */

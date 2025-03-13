@@ -9,6 +9,7 @@
     &__nav{
         display:flex;
         align-items: center;
+        font-size:1.2em;
     }
     &__logo{
         .logo__svg{
@@ -25,8 +26,7 @@
         }
     }
     &__search{
-        margin-left:auto;
-        margin-right:0;
+        margin-left:2em;
     }
 }
 
