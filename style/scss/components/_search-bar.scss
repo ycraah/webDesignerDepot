@@ -12,14 +12,8 @@
         font-size:1.05em;
         transition: all 1s;
     }
-    &__input.disabled {
-        width: 0;
-    }
-    &__input.active {
-        display: block;
-    }
     &__input.expand-left {
-        width:250px;
+        width:300px;
     }
     &__button {
         display: flex;

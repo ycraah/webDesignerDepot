@@ -104,7 +104,7 @@ body {
 .header__nav {
   display: flex;
   align-items: center;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .header__logo .logo__svg {
   width: 48px;
@@ -120,6 +120,8 @@ body {
 }
 .header__search {
   margin-left: 2em;
+  display: inline-block;
+  transform: translateY(-15%);
 }
 
 .theme--dark {
@@ -147,14 +149,8 @@ body {
   font-size: 1.05em;
   transition: all 1s;
 }
-.search__input.disabled {
-  width: 0;
-}
-.search__input.active {
-  display: block;
-}
 .search__input.expand-left {
-  width: 250px;
+  width: 300px;
 }
 .search__button {
   display: flex;
