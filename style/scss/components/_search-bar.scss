@@ -1,26 +1,25 @@
 .search {
     display: flex;
     &__input {
-        width:150px;
         border-radius: 25px;
         padding-left:1.5em;
         margin-right: -2em;
         background-color: #292929;
         border-width: 0;
-        transition: all 1s;
+        width:0;
         outline: none;
         color:#eee;
         font-size:1.05em;
+        transition: all 1s;
     }
     &__input.disabled {
         width: 0;
-        display: none;
     }
     &__input.active {
         display: block;
     }
     &__input.expand-left {
-        width: 100%;
+        width:250px;
     }
     &__button {
         display: flex;

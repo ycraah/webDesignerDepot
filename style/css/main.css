@@ -136,26 +136,25 @@ body {
   display: flex;
 }
 .search__input {
-  width: 150px;
   border-radius: 25px;
   padding-left: 1.5em;
   margin-right: -2em;
   background-color: #292929;
   border-width: 0;
-  transition: all 1s;
+  width: 0;
   outline: none;
   color: #eee;
   font-size: 1.05em;
+  transition: all 1s;
 }
 .search__input.disabled {
   width: 0;
-  display: none;
 }
 .search__input.active {
   display: block;
 }
 .search__input.expand-left {
-  width: 100%;
+  width: 250px;
 }
 .search__button {
   display: flex;
