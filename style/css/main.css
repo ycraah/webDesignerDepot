@@ -136,7 +136,7 @@ body {
   display: flex;
 }
 .search__input {
-  width: 20rem;
+  width: 150px;
   border-radius: 25px;
   padding-left: 1.5em;
   margin-right: -2em;
@@ -164,4 +164,21 @@ body {
   padding: 15px;
   border-radius: 50% 50%;
   background-color: #e3ff59;
+}
+
+.underline {
+  width: 100%;
+  height: 10px;
+  background-image: url("/src/img/underline.svg");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.underline.disabled {
+  opacity: 0;
+}
+
+.underline.active {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */

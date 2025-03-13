@@ -1,0 +1,19 @@
+const textUnderlineEffect = (() => {
+    const navLinks = document.querySelectorAll(".menu__link");
+    navLinks.forEach(link => {
+        link.insertAdjacentHTML("afterend", "<div class='underline disabled'></div>");
+    }); //underline 생성기
+
+    for(let i = 0; i < navLinks.length; i++){
+        const underline = navLinks[i].nextElementSibling;
+        navLinks[i].addEventListener("mouseenter", () => {
+            underline.classList.replace("disabled", "active");
+        }); 
+        navLinks[i].addEventListener("mouseleave", () => {
+            underline.classList.replace("active", "disabled");
+        });
+    }
+
+});
+
+export {textUnderlineEffect};
