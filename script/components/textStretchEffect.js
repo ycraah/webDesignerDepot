@@ -1,0 +1,5 @@
+const textStretchEffect = () =>{
+    
+}
+
+export {textStretchEffect}
