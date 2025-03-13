@@ -133,6 +133,12 @@ body {
   margin: 2em auto;
   max-width: 1350px;
 }
+.section__container svg {
+  overflow: visible;
+}
+.section__container svg path {
+  pointer-events: bounding-box;
+}
 
 .theme--dark {
   background-color: #121212;
