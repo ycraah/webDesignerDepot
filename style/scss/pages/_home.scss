@@ -5,9 +5,9 @@
     &__container{
         margin: 2em auto;
         max-width:$max-width;
-        svg{
+        .text-list__svg{
             overflow: visible;
-            path{
+            > path{
                 pointer-events:bounding-box;
             }
         }

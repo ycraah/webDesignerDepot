@@ -133,10 +133,10 @@ body {
   margin: 2em auto;
   max-width: 1350px;
 }
-.section__container svg {
+.section__container .text-list__svg {
   overflow: visible;
 }
-.section__container svg path {
+.section__container .text-list__svg > path {
   pointer-events: bounding-box;
 }
 
