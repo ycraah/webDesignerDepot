@@ -1,0 +1,17 @@
+.webkit-ellipsis{
+    display:-webkit-box;
+    -webkit-box-orient: vertical; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    width:95%;
+}
+
+.webkit-ellipsis-line-2{
+    @extend .webkit-ellipsis;
+    -webkit-line-clamp: 2;
+}
+
+.webkit-ellipsis-line-3{
+    @extend .webkit-ellipsis;
+    -webkit-line-clamp: 3;
+}
