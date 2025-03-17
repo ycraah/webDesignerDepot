@@ -204,7 +204,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 1em;
-  gap: 2em;
+  grid-gap: 2em;
   box-sizing: border-box;
 }
 
