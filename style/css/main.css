@@ -206,14 +206,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 25px;
   padding: 2em;
-  flex-direction: column;
-  justify-content: space-between;
 }
 .content-box__image {
   position: relative;
   border-radius: 25px;
   overflow: hidden;
-  height: 600px;
 }
 .content-box__image > img {
   width: 100%;
@@ -271,6 +268,30 @@ body {
   padding: 7px;
   border-radius: 50%;
   background-color: rgb(227, 255, 89);
+}
+
+.content-box--big .content-box__image {
+  height: 600px;
+}
+
+.content-box--small {
+  display: flex;
+  gap: 1em;
+}
+.content-box--small .content-box__image {
+  min-width: 22%;
+  height: 15%;
+}
+.content-box--small .content-box__header {
+  font-size: 1.3rem;
+  line-height: 120%;
+}
+.content-box--small .content-box__body {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.content-box--small .content-box__footer {
+  margin-top: 0.5rem;
 }
 
 .border--rainbow-rotate {
