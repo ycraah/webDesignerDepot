@@ -959,7 +959,7 @@ body {
     background-image: linear-gradient(94.7deg, rgb(228, 254, 90) 0%, rgb(86, 214, 215) 35%, rgb(118, 61, 181) 68.5%, rgb(239, 31, 162) 100%);
   }
 }
-.webkit-ellipsis, .webkit-ellipsis-line-3, .webkit-ellipsis-line-2 {
+.webkit-ellipsis, .webkit-ellipsis-line-4, .webkit-ellipsis-line-3, .webkit-ellipsis-line-2 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -973,6 +973,10 @@ body {
 
 .webkit-ellipsis-line-3 {
   -webkit-line-clamp: 3;
+}
+
+.webkit-ellipsis-line-4 {
+  -webkit-line-clamp: 4;
 }
 
 .display-on-mobile {
@@ -1011,4 +1015,22 @@ body {
   .hamburger__button .hamburger__line {
     border-color: #e3ff59;
   }
+}
+.common-underline, .text-underline-left-to-right-bold, .text-underline-left-to-right {
+  transition: all 0.5s;
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+}
+.common-underline:hover, .text-underline-left-to-right-bold:hover, .text-underline-left-to-right:hover {
+  color: #e3ff59;
+  background-size: 100% 100%;
+}
+
+.text-underline-left-to-right {
+  background-image: linear-gradient(to bottom, transparent 95%, #e3ff59 5%);
+}
+
+.text-underline-left-to-right-bold {
+  padding-bottom: 2px;
+  background-image: linear-gradient(to bottom, transparent 85%, #e3ff59 15%);
 }/*# sourceMappingURL=main.css.map */

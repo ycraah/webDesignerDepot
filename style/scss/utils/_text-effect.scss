@@ -1,0 +1,20 @@
+.common-underline {
+    transition: all 0.5s;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    &:hover {
+        color: #e3ff59;
+        background-size: 100% 100%;
+    }
+}
+
+.text-underline-left-to-right {
+    @extend .common-underline;
+    background-image: linear-gradient(to bottom, transparent 95%, #e3ff59 5%); 
+}
+
+.text-underline-left-to-right-bold {
+    @extend .common-underline;
+    padding-bottom: 2px;
+    background-image: linear-gradient(to bottom, transparent 85%, #e3ff59 15%); 
+}

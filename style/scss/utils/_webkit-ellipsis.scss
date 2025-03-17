@@ -15,3 +15,8 @@
     @extend .webkit-ellipsis;
     -webkit-line-clamp: 3;
 }
+
+.webkit-ellipsis-line-4{
+    @extend .webkit-ellipsis;
+    -webkit-line-clamp: 4;
+}
