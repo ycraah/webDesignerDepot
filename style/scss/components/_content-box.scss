@@ -5,6 +5,7 @@
     border:1px solid rgba(255,255,255,0.1);
     border-radius:25px;
     padding: 2em;
+    box-sizing: border-box;
     &__image{
         position: relative;
         border-radius:25px;
@@ -71,8 +72,20 @@
 }
 
 .content-box--big{
+  height:100%;
   .content-box__image{
     height:600px;
+  }
+}
+
+.content-box__list{
+  display:flex;
+  flex-direction:column;
+  gap:1em;
+  box-sizing: border-box;
+  li {
+    height:25%;
+    flex-shrink: 1;
   }
 }
 
@@ -80,8 +93,14 @@
   display:flex;
   gap:1em;
   .content-box__image{
-    min-width:22%;
-    height:15%;
+    width: 150px;
+    height:150px;
+    flex-shrink: 0;
+    img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+    }
   }
 
   .content-box__header{
