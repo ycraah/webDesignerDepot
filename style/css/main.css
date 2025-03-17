@@ -282,6 +282,13 @@ body {
   padding: 7px;
   border-radius: 50%;
   background-color: rgb(227, 255, 89);
+  transition: background-color 0.5s;
+}
+.content-box__icon.active {
+  background-color: transparent;
+}
+.content-box__icon.active path {
+  stroke: #e3ff59;
 }
 
 .content-box--big {
