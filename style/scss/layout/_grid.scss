@@ -9,12 +9,11 @@
     }
 }
 
-
 @media screen and (max-width: 1030px) {
     .section__content-box{
         .grid-container{
             grid-template-columns: 1fr;
-            grid-template-rows:1000px;
+            grid-template-rows:1fr;
         }
     }
 }

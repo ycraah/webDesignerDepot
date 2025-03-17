@@ -31,5 +31,19 @@
         display:inline-block;
         transform:translateY(-15%);
     }
+    &__hamburger{
+        margin-left:auto;
+    }
 }
 
+@media screen and (max-width : 1280px){
+    .header{
+        padding:1em;
+        .display-on-mobile{
+            display:block;
+        }
+        .hidden-on-mobile{
+            display:none;
+        }
+    }
+}
