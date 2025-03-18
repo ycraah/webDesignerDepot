@@ -278,7 +278,7 @@ body {
 .underline {
   width: 100%;
   height: 10px;
-  background-image: url("/src/img/underline.svg");
+  background-image: url("./src/img/underline.svg");
   background-position: bottom;
   background-size: contain;
   background-repeat: repeat-x;
