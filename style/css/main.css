@@ -319,6 +319,7 @@ body {
 }
 .content-box--circle .content-box__image {
   border-radius: 50%;
+  position: relative;
 }
 .content-box--circle .content-box__image.active > img {
   transform: rotate(180deg);
@@ -328,6 +329,23 @@ body {
 }
 .content-box--circle .border--rainbow-rotate .inner-box {
   border-radius: 50%;
+}
+.content-box--circle::after {
+  content: attr(data-content);
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  font-size: 2rem;
+  color: #e3ff59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: 2px solid #e3ff59;
+  border-radius: 50%;
+  background-color: #121212;
 }
 
 .section__popular-posts .content-box__header {

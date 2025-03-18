@@ -83,6 +83,7 @@
   padding:1.5em;
   .content-box__image{
     border-radius:50%;
+    position:relative;
     &.active{
       >img{
         transform:rotate(180deg);
@@ -94,6 +95,23 @@
     .inner-box{
       border-radius:50%;
     }
+  }
+  &::after{
+    content:attr(data-content);
+    position:absolute;
+    bottom:0%;
+    left:0%;
+    font-size:2rem;
+    color:#e3ff59;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    padding:5px;
+    border:2px solid #e3ff59;
+    border-radius:50%;
+    background-color: #121212;
   }
 }
 

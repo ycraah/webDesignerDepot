@@ -26,4 +26,11 @@ const contentBoxGenerator = () => {
     });
 }
 
-export {contentBoxGenerator};
+const contentBoxCircleAfterData = () => {
+        const contentBoxCircles = document.querySelectorAll(".content-box--circle");
+        contentBoxCircles.forEach((circle, index) => {
+            circle.setAttribute('data-content', index +1);
+        });
+}
+
+export {contentBoxGenerator, contentBoxCircleAfterData};
