@@ -3,7 +3,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url(../abstracts/_variables.scss);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -282,9 +281,6 @@ body {
   background-position: bottom;
   background-size: contain;
   background-repeat: repeat-x;
-}
-
-.underline.disabled {
   opacity: 0;
 }
 
@@ -1149,7 +1145,7 @@ body {
   flex-direction: column;
   width: 20px;
   height: 15px;
-  padding: 25px;
+  padding: 20px;
   gap: 2px;
 }
 .hamburger__button .hamburger__line {
