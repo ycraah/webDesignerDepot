@@ -142,17 +142,21 @@ body {
     display: none;
   }
 }
+.footer {
+  border-bottom: 1px solid #222;
+}
 .footer__container {
-  margin: 3em auto;
+  margin: 3em auto 0;
+  padding-bottom: 5em;
   max-width: 1350px;
 }
 
 .subscribe {
-  padding: 5em 0;
+  padding: 3em 0 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #222;
   gap: 2em;
+  width: 100%;
 }
 .subscribe__text-list {
   flex-grow: 1;
@@ -175,6 +179,7 @@ body {
 }
 .subscribe__form {
   display: flex;
+  max-width: 80%;
   gap: 1em;
 }
 .subscribe__input {
@@ -198,14 +203,17 @@ body {
   .subscribe__content {
     margin-top: 3em;
   }
+  .subscribe__form {
+    margin-bottom: 3em;
+  }
 }
 .footer__menu {
   margin-top: 2em;
 }
 .footer .menu__items {
   display: flex;
-  justify-self: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5em;
   margin-top: 1em;
   color: rgba(255, 255, 255, 0.7);
