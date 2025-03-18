@@ -246,6 +246,10 @@ body {
     padding: 2em;
   }
 }
+.dummy {
+  display: none;
+}
+
 .theme--dark {
   background-color: #121212;
   color: #fff;
