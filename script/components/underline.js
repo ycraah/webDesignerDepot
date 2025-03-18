@@ -7,10 +7,10 @@ const textUnderlineEffect = (() => {
     for(let i = 0; i < navLinks.length; i++){
         const underline = navLinks[i].nextElementSibling;
         navLinks[i].addEventListener("mouseenter", () => {
-            underline.classList.replace("disabled", "active");
+            underline.classList.add( "active");
         }); 
         navLinks[i].addEventListener("mouseleave", () => {
-            underline.classList.replace("active", "disabled");
+            underline.classList.remove( "active");
         });
     }
 
