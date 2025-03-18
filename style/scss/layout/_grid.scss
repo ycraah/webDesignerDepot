@@ -17,3 +17,12 @@
         }
     }
 }
+
+.section__popular-posts{
+    .popular-posts__list{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap:2em;
+    }
+}

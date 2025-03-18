@@ -214,6 +214,13 @@ body {
     grid-template-rows: 1fr;
   }
 }
+.section__popular-posts .popular-posts__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 2em;
+}
+
 .content-box {
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -231,7 +238,7 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .content-box__image.active > img {
   transform: scale(1.2);
@@ -289,6 +296,23 @@ body {
 }
 .content-box__icon.active path {
   stroke: #e3ff59;
+}
+
+.content-box--circle {
+  border: none;
+  padding: 1.5em;
+}
+.content-box--circle .content-box__image {
+  border-radius: 50%;
+}
+.content-box--circle .content-box__image.active > img {
+  transform: rotate(180deg);
+}
+.content-box--circle .border--rainbow-rotate {
+  border-radius: 50%;
+}
+.content-box--circle .border--rainbow-rotate .inner-box {
+  border-radius: 50%;
 }
 
 .content-box--big {
