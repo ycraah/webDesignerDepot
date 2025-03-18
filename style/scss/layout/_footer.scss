@@ -1,4 +1,4 @@
-@import url(../abstracts/_variables.scss);
+@import "../abstracts/variables";
 
 .footer{
     &__container{
@@ -8,7 +8,7 @@
 }
 
 .subscribe{
-    padding:2em 0;
+    padding:5em 0;
     display:flex;
     justify-content: space-between;
     border-bottom:1px solid #222;
@@ -49,6 +49,9 @@
 }
 
 @media screen and (max-width:1280px){
+    .footer__container{
+        padding:1em;
+    }
     .subscribe{
         display:inline-block;
         &__content{
@@ -56,3 +59,18 @@
         }
     }
 }
+
+.footer{
+    &__menu{
+        margin-top:2em;
+    }
+    .menu__items{
+        display:flex;
+        justify-self: center;
+        align-items: center;
+        gap:1.5em;
+        margin-top:1em;
+        color:rgba(255,255,255,0.7);
+    }
+}
+

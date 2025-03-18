@@ -4,7 +4,6 @@
    License: none (public domain)
 */
 @import url(../abstracts/_variables.scss);
-@import url(../abstracts/_variables.scss);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -149,7 +148,7 @@ body {
 }
 
 .subscribe {
-  padding: 2em 0;
+  padding: 5em 0;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #222;
@@ -190,6 +189,9 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+  .footer__container {
+    padding: 1em;
+  }
   .subscribe {
     display: inline-block;
   }
@@ -197,6 +199,18 @@ body {
     margin-top: 3em;
   }
 }
+.footer__menu {
+  margin-top: 2em;
+}
+.footer .menu__items {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 1.5em;
+  margin-top: 1em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .section {
   border-bottom: 1px solid #222;
 }
