@@ -4,6 +4,7 @@
    License: none (public domain)
 */
 @import url(../abstracts/_variables.scss);
+@import url(../abstracts/_variables.scss);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -140,6 +141,60 @@ body {
   }
   .header .hidden-on-mobile {
     display: none;
+  }
+}
+.footer__container {
+  margin: 3em auto;
+  max-width: 1350px;
+}
+
+.subscribe {
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #222;
+  gap: 2em;
+}
+.subscribe__text-list {
+  flex-grow: 1;
+  white-space: nowrap;
+  margin-bottom: 2em;
+}
+.subscribe__text {
+  min-width: 15px;
+  color: #e3ff59;
+  font-size: 4.5rem;
+  font-weight: bold;
+  transform: scale(1, 2);
+}
+.subscribe__content {
+  margin-top: -1.5em;
+  font-size: 1.5rem;
+}
+.subscribe__title {
+  margin-bottom: 1em;
+}
+.subscribe__form {
+  display: flex;
+  gap: 1em;
+}
+.subscribe__input {
+  border-radius: 25px;
+  background-color: #292929;
+  border-width: 0;
+  outline: none;
+  color: #eee;
+  font-size: 1rem;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 1280px) {
+  .subscribe {
+    display: inline-block;
+  }
+  .subscribe__content {
+    margin-top: 3em;
   }
 }
 .section {
@@ -1097,4 +1152,18 @@ body {
 .text-underline-left-to-right-bold {
   padding-bottom: 2px;
   background-image: linear-gradient(to bottom, transparent 85%, #e3ff59 15%);
+}
+
+button {
+  background-color: #e3ff59;
+  border-radius: 25px;
+  padding: 1.5em 2.5em;
+  font-weight: bold;
+  border: 1px solid #e3ff59;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #e3ff59;
 }/*# sourceMappingURL=main.css.map */

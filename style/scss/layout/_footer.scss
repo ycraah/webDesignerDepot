@@ -1,0 +1,58 @@
+@import url(../abstracts/_variables.scss);
+
+.footer{
+    &__container{
+        margin: 3em auto;
+        max-width:$max-width; 
+    }
+}
+
+.subscribe{
+    padding:2em 0;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid #222;
+    gap:2em;
+    &__text-list{
+        flex-grow: 1;
+        white-space :nowrap;
+        margin-bottom:2em;
+    }
+    &__text{
+        min-width:15px;
+        color:#e3ff59;
+        font-size:4.5rem;
+        font-weight:bold;
+        transform:scale(1,2);
+    }
+    &__content{
+        margin-top:-1.5em;
+        font-size:1.5rem;
+    }
+    &__title{
+        margin-bottom:1em;
+    }
+    &__form{
+        display:flex;
+        gap:1em;
+    }
+    &__input{
+        border-radius: 25px;
+        background-color: #292929;
+        border-width: 0;
+        outline: none;
+        color:#eee;
+        font-size:1rem;
+        padding:0.5em 0.5em 0.5em 1.5em;
+        flex-grow:1;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .subscribe{
+        display:inline-block;
+        &__content{
+            margin-top:3em;
+        }
+    }
+}
