@@ -29,6 +29,9 @@ body{
 }
 
 @media screen and (max-width:780px){
+        .section__container{
+            padding:0.5em;
+        }
     .content-box__icon{
         display:none;
     }

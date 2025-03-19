@@ -302,6 +302,9 @@ body {
   }
 }
 @media screen and (max-width: 780px) {
+  .section__container {
+    padding: 0.5em;
+  }
   .content-box__icon {
     display: none;
   }
@@ -539,6 +542,18 @@ body {
   margin-top: 0.5rem;
 }
 
+@media screen and (max-width: 780px) {
+  .content-box--small .content-box__header {
+    font-size: 1rem;
+  }
+  .content-box--small .content-box__body {
+    display: none;
+  }
+  .content-box--small .content-box__image {
+    width: 80px;
+    height: 80px;
+  }
+}
 .border--rainbow-rotate {
   position: absolute;
   top: 0;
