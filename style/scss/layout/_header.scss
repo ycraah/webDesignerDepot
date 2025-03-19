@@ -1,74 +1,84 @@
-.header{
-    padding:16px 0;
-    border-bottom:1px solid #222;
+.header {
+    padding: 16px 0;
+    border-bottom: 1px solid #222;
     box-sizing: border-box;
-    &__container{
-        margin:0 auto;
-        max-width:$max-width;
+    &__container {
+        margin: 0 auto;
+        max-width: $max-width;
     }
-    &__nav{
-        display:flex;
+    &__nav {
+        display: flex;
         align-items: center;
-        font-size:1em;
+        font-size: 1em;
     }
-    &__logo{
-        .logo__svg{
-            width:$svg-size;
-            height:$svg-size;
+    &__logo {
+        .logo__svg {
+            width: $svg-size;
+            height: $svg-size;
         }
     }
-    &__menu{
-        margin-left:auto;
-        margin-right:0;
-        .menu__items{
-            display:flex;
-            gap:2em;
+    &__menu {
+        margin-left: auto;
+        margin-right: 0;
+        .menu__items {
+            display: flex;
+            gap: 2em;
         }
     }
-    &__search{
-        margin-left:2em;
-        display:inline-block;
-        transform:translateY(-15%);
+    &__search {
+        margin-left: 2em;
+        display: inline-block;
+        transform: translateY(-15%);
     }
-    &__hamburger{
-        margin-left:auto;
+    &__hamburger {
+        margin-left: auto;
     }
-    .display-on-mobile{
-        display:none;
+    .display-on-mobile {
+        display: none;
     }
 }
 
-.header{
-    position:relative;
-    &__response-nav{
-        padding:2em;
-        box-sizing:border-box;
-        position:absolute;
-        left:0;
-        top:-100vh;
-        width:99vw;
-        height:100vh;
+.header {
+    position: relative;
+    &__response-nav {
+        padding: 2em;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        top: -100vh;
+        width: 99vw;
+        height: 100vh;
         background-color: #111;
-        z-index:500;
-        
-        .header__search{
-            margin:0 auto;
-           max-width:300px;
+        z-index: 500;
+
+        .header__search {
+            margin: 1em auto;
+            max-width: 300px;
         }
-        &.active{
-            top:101%; 
+        .menu__items {
+            display:flex;
+            flex-direction: column;
+            gap:1em;
+            align-items: center;
         }
+        .menu__item{
+            
+        }
+        &.active {
+            top: 101%;
+        }
+       
     }
 }
 
-@media screen and (max-width : 1280px){
-    .header{
-        padding:1em;
-        .display-on-mobile{
-            display:block;
+@media screen and (max-width: 1280px) {
+    .header {
+        padding: 1em;
+        .display-on-mobile {
+            display: block;
         }
-        .hidden-on-mobile{
-            display:none;
+        .hidden-on-mobile {
+            display: none;
         }
     }
 }

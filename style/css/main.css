@@ -146,8 +146,14 @@ body {
   z-index: 500;
 }
 .header__response-nav .header__search {
-  margin: 0 auto;
+  margin: 1em auto;
   max-width: 300px;
+}
+.header__response-nav .menu__items {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
 }
 .header__response-nav.active {
   top: 101%;
