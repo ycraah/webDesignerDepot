@@ -493,6 +493,13 @@ body {
   background-color: #121212;
 }
 
+@media screen and (max-width: 780px) {
+  .content-box--circle::after {
+    font-size: 1, 5rem;
+    width: 35px;
+    height: 35px;
+  }
+}
 .section__popular-posts .content-box__header {
   font-size: 1.5rem;
 }
