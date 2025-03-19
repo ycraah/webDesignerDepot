@@ -1,8 +1,13 @@
+body{
+    overflow-x:hidden;
+}
+
 .section{
     border-bottom:1px solid #222;
     &__container{
         margin: 2em auto;
         max-width:$max-width;
+        box-sizing:border-box;
         .text-list__svg{
             overflow: visible;
             > path{
@@ -20,5 +25,11 @@
 @media screen and (max-width:1230px) {
     .section__container{
         padding:2em;
+    }
+}
+
+@media screen and (max-width:780px){
+    .content-box__icon{
+        display:none;
     }
 }

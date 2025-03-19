@@ -139,7 +139,7 @@ body {
   box-sizing: border-box;
   position: absolute;
   left: 0;
-  top: -100vh;
+  top: -150vh;
   width: 99vw;
   height: 100vh;
   background-color: #111;
@@ -272,12 +272,17 @@ body {
     display: block;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .section {
   border-bottom: 1px solid #222;
 }
 .section__container {
   margin: 2em auto;
   max-width: 1350px;
+  box-sizing: border-box;
 }
 .section__container .text-list__svg {
   overflow: visible;
@@ -294,6 +299,11 @@ body {
 @media screen and (max-width: 1230px) {
   .section__container {
     padding: 2em;
+  }
+}
+@media screen and (max-width: 780px) {
+  .content-box__icon {
+    display: none;
   }
 }
 .theme--dark {
