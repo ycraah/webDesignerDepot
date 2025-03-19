@@ -118,8 +118,10 @@
 }
 
 @media screen and (max-width:$response-width-max-md){
-  .content-box__link{
-    text-align:center;
+  .section__popular-posts{
+    .content-box__link{
+      text-align:center;
+    }
   }
   .content-box--circle{
     max-width:200px;

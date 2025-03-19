@@ -38,8 +38,10 @@ body{
         display:none;
     }
     .section{
-        .hidden-on-mobile{
-            display:none;
+        .popular-posts__list{
+            .hidden-on-mobile{
+                display:none;
+            }
         }
     }
 }
