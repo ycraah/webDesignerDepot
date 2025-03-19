@@ -1,6 +1,7 @@
 .header{
     padding:16px 0;
     border-bottom:1px solid #222;
+    box-sizing: border-box;
     &__container{
         margin:0 auto;
         max-width:$max-width;
@@ -34,6 +35,29 @@
     }
     .display-on-mobile{
         display:none;
+    }
+}
+
+.header{
+    position:relative;
+    &__response-nav{
+        padding:2em;
+        box-sizing:border-box;
+        position:absolute;
+        left:0;
+        top:-100vh;
+        width:99vw;
+        height:100vh;
+        background-color: #111;
+        z-index:500;
+        margin:0 auto;
+        overflow:hidden;
+        .search{
+            width:300px;
+        }
+        &.active{
+            top:101%;
+        }
     }
 }
 
