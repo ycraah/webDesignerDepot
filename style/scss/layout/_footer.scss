@@ -80,5 +80,11 @@
         margin:2em 0;
         color:rgba(255,255,255,0.7);
     }
+    .menu__icons{
+        display:flex;
+        justify-content: center;
+        gap:3em;
+        margin-bottom:2em;
+    }
 }
 
