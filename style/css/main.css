@@ -255,7 +255,22 @@ body {
   gap: 3em;
   margin-bottom: 2em;
 }
+.footer .display-on-mobile {
+  font-size: 1.3rem;
+  color: #e3ff59;
+  display: none;
+}
 
+@media screen and (max-width: 780px) {
+  .footer .menu__items {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  .footer .display-on-mobile {
+    display: block;
+  }
+}
 .section {
   border-bottom: 1px solid #222;
 }

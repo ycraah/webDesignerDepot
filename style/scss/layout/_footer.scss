@@ -86,5 +86,22 @@
         gap:3em;
         margin-bottom:2em;
     }
+    .display-on-mobile{
+        font-size:1.3rem;
+        color:#e3ff59;
+        display:none;
+    }
 }
 
+@media screen and (max-width:780px) {
+    .footer{
+        .menu__items{
+            flex-direction: column;
+            align-items: center;
+            gap:1em;
+        }
+        .display-on-mobile{
+            display:block;
+        }
+    }
+}
