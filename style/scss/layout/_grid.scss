@@ -1,3 +1,5 @@
+@import "../abstracts/variables";
+
 .section__content-box{
     .grid-container{
         display:grid;
@@ -18,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: $response-width-max-md) {
     .section{
         .hidden-on-mobile{
             display:none;

@@ -1,3 +1,5 @@
+@import "../abstracts/variables";
+
 .content-box{
     position:relative;
     border:1px solid rgba(255,255,255,0.1);
@@ -110,13 +112,33 @@
     border:2px solid #e3ff59;
     border-radius:50%;
     background-color: #121212;
+    z-index:1000;
   }
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:$response-width-max-md){
+  .content-box__link{
+    text-align:center;
+  }
+  .content-box--circle{
+    max-width:200px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+  }
+  .content-box__text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:$response-width-max-sm) {
   .content-box--circle{
     &::after{
-      font-size:1,5rem;
+      left:10%;
+      font-size:1.2rem;
       width:35px;
       height:35px;
     }
@@ -174,7 +196,7 @@
   }
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:$response-width-max-sm){
   .content-box--small{
     .content-box__header{
       font-size:1rem;

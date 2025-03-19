@@ -1,3 +1,5 @@
+@import "../abstracts/variables";
+
 body{
     overflow-x:hidden;
 }
@@ -22,13 +24,13 @@ body{
     }
 }
 
-@media screen and (max-width:1230px) {
+@media screen and (max-width:$response-width-max-md) {
     .section__container{
         padding:2em;
     }
 }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:$response-width-max-sm){
         .section__container{
             padding:0.5em;
         }

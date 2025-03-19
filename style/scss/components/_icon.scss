@@ -1,3 +1,5 @@
+@import "../abstracts/variables";
+
 .icon{
     display: flex;
     align-items: center;
@@ -55,7 +57,7 @@
 }
 
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:$response-width-max-sm) {
     .hamburger__button{
         background-color: transparent;
         .hamburger__line{
