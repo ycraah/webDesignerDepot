@@ -50,24 +50,19 @@
         height: 100vh;
         background-color: #111;
         z-index: 500;
-
         .header__search {
             margin: 1em auto;
             max-width: 300px;
         }
         .menu__items {
-            display:flex;
+            display: flex;
             flex-direction: column;
-            gap:1em;
+            gap: 1em;
             align-items: center;
-        }
-        .menu__item{
-            
         }
         &.active {
             top: 101%;
         }
-       
     }
 }
 

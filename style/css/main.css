@@ -1202,6 +1202,18 @@ body {
 .hamburger__button .hamburger__line {
   width: 15px;
   border: 1.5px solid #000;
+  transition: all 0.5s;
+}
+
+.header__hamburger.active .hamburger__line:nth-child(1) {
+  transform: rotate(45deg);
+}
+.header__hamburger.active .hamburger__line:nth-child(3) {
+  margin-top: -9px;
+  transform: rotate(-45deg);
+}
+.header__hamburger.active .hamburger__line:nth-child(2) {
+  opacity: 0;
 }
 
 @media screen and (max-width: 780px) {
