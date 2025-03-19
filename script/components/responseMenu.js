@@ -5,6 +5,9 @@ const responseMenu = () => {
         hamburgerMenu.classList.toggle("active");
         responseNav.classList.toggle("active");
     });
+    responseNav.addEventListener("wheel", (e) => {
+        e.preventDefault();
+    });
 }
 
 export {responseMenu}
