@@ -271,6 +271,16 @@ body {
   .footer .display-on-mobile {
     display: block;
   }
+  .footer__container {
+    padding: 1em;
+  }
+  .footer .subscribe__form {
+    gap: 0.2em;
+  }
+  .footer .subscribe__input {
+    box-sizing: border-box;
+    padding: 0 0 0 0.5em;
+  }
 }
 body {
   overflow-x: hidden;
@@ -1332,4 +1342,10 @@ body {
 .button:hover {
   background-color: transparent;
   color: #e3ff59;
+}
+
+@media screen and (max-width: 760px) {
+  .button {
+    padding: 1em 2em;
+  }
 }/*# sourceMappingURL=main.css.map */

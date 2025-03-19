@@ -1,3 +1,5 @@
+@import '../abstracts/variables';
+
 .button{
     background-color: #e3ff59;
     border-radius:25px;
@@ -11,3 +13,8 @@
     color:#e3ff59;
 }
 
+@media screen and (max-width:$response-width-max-sm) {
+    .button{
+        padding:1em 2em;
+    }
+}

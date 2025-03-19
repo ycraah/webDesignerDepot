@@ -38,8 +38,7 @@
     &__form{
         display:flex;
         max-width:80%;
-        gap:1em;
-        
+        gap:1em;  
     }
     &__input{
         border-radius: 25px;
@@ -105,6 +104,18 @@
         }
         .display-on-mobile{
             display:block;
+        }
+        &__container{
+            padding:1em;
+        }
+        .subscribe{
+            &__form{
+                gap:0.2em;
+            }
+            &__input{
+                box-sizing: border-box;
+                padding:0 0 0 0.5em;
+            }
         }
     }
 }
