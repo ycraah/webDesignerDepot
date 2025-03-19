@@ -144,6 +144,7 @@ body {
   height: 100vh;
   background-color: #111;
   z-index: 500;
+  opacity: 0;
 }
 .header__response-nav .header__search {
   margin: 1em auto;
@@ -157,6 +158,7 @@ body {
 }
 .header__response-nav.active {
   top: 101%;
+  opacity: 1;
 }
 
 @media screen and (max-width: 1230px) {

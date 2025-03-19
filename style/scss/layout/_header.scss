@@ -52,6 +52,7 @@
         height: 100vh;
         background-color: #111;
         z-index: 500;
+        opacity:0;
         .header__search {
             margin: 1em auto;
             max-width: 300px;
@@ -64,6 +65,7 @@
         }
         &.active {
             top: 101%;
+            opacity:1;
         }
     }
 }
