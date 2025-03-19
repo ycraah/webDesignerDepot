@@ -50,13 +50,13 @@
         height:100vh;
         background-color: #111;
         z-index:500;
-        margin:0 auto;
-        overflow:hidden;
-        .search{
-            width:300px;
+        
+        .header__search{
+            margin:0 auto;
+           max-width:300px;
         }
         &.active{
-            top:101%;
+            top:101%; 
         }
     }
 }

@@ -144,11 +144,10 @@ body {
   height: 100vh;
   background-color: #111;
   z-index: 500;
-  margin: 0 auto;
-  overflow: hidden;
 }
-.header__response-nav .search {
-  width: 300px;
+.header__response-nav .header__search {
+  margin: 0 auto;
+  max-width: 300px;
 }
 .header__response-nav.active {
   top: 101%;
