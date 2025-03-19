@@ -308,6 +308,9 @@ body {
   .content-box__icon {
     display: none;
   }
+  .section .hidden-on-mobile {
+    display: none;
+  }
 }
 .theme--dark {
   background-color: #121212;
@@ -381,6 +384,12 @@ body {
     grid-template-rows: 1fr;
   }
 }
+@media screen and (max-width: 760px) {
+  .section__popular-posts .popular-posts__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
 .content-box {
   position: relative;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -441,6 +450,7 @@ body {
 }
 .content-box__date {
   margin-left: 1em;
+  margin-right: 1em;
   color: rgba(255, 255, 255, 0.5);
 }
 .content-box__icon {

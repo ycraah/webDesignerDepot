@@ -40,3 +40,11 @@
     }
 }
 
+@media screen and (max-width: $response-width-max-sm){
+    .section__popular-posts{
+        .popular-posts__list{
+            grid-template-columns:1fr;
+            grid-template-rows:1fr;
+        }
+    }
+}

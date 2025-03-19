@@ -37,4 +37,9 @@ body{
     .content-box__icon{
         display:none;
     }
+    .section{
+        .hidden-on-mobile{
+            display:none;
+        }
+    }
 }
