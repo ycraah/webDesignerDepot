@@ -284,6 +284,10 @@ body {
     width: 100%;
     height: 3em;
   }
+  .footer .subscribe__text {
+    font-size: 2.5em;
+    min-width: 0;
+  }
 }
 body {
   overflow-x: hidden;
