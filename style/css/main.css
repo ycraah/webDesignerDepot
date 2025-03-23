@@ -161,7 +161,7 @@ body {
   opacity: 1;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1280px) {
   .header {
     padding: 1em;
   }
@@ -222,7 +222,7 @@ body {
   flex-grow: 1;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1280px) {
   .footer__container {
     padding: 2em;
   }
@@ -262,7 +262,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .footer .menu__items {
     flex-direction: column;
     align-items: center;
@@ -313,12 +313,12 @@ body {
   color: #e3ff59;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1280px) {
   .section__container {
     padding: 2em;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .section__container {
     padding: 0.5em;
   }
@@ -388,7 +388,7 @@ body {
   grid-gap: 2em;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1280px) {
   .section .hidden-on-mobile {
     display: none;
   }
@@ -401,7 +401,7 @@ body {
     grid-template-rows: 1fr;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .section__popular-posts .popular-posts__list {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -521,7 +521,7 @@ body {
   z-index: 1000;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1280px) {
   .section__popular-posts .content-box__link {
     text-align: center;
   }
@@ -538,7 +538,7 @@ body {
     justify-content: center;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .content-box--circle::after {
     left: 10%;
     font-size: 1.2rem;
@@ -595,7 +595,7 @@ body {
   margin-top: 0.5rem;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .content-box--small .content-box__header {
     font-size: 1rem;
   }
@@ -1310,7 +1310,7 @@ body {
   opacity: 0;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .hamburger__button {
     background-color: transparent;
   }
@@ -1351,7 +1351,7 @@ body {
   color: #e3ff59;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .button {
     padding: 1em 2em;
   }
